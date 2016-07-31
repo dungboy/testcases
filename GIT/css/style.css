@@ -6,3 +6,26 @@
 img {
     display: block;
 }
+
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #999;
+}
+th, td {
+    padding: 0.5em;
+}
+
+#imagelist {
+    border-top: 3px solid #666;
+    border-bottom: 3px solid #666;
+}
+#imagelist:after {
+    clear: both;
+    display: block;
+    content: " ";
+}
+#imagelist img {
+    float: left;
+}
